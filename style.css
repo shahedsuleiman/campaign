@@ -1,0 +1,125 @@
+:root {
+  --bs-blue: #00233a;
+  --bs-hero: #219ebc;
+  --bs-btn: #ffd26c;
+}
+body {
+  background-color: var(--bs-blue);
+}
+
+#mainNavigation a {
+  font-family: "Cabin", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+#mainNavigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 80px;
+  padding-bottom: 120px;
+  /* background-color:var(--bs-blue) ; */
+
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+}
+#navbarNavDropdown.collapsing .navbar-nav,
+#navbarNavDropdown.show .navbar-nav {
+  background: #037582;
+  padding: 12px;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 300;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  margin-top: 90px;
+}
+.heading2 {
+  font-size: 72px;
+  font-weight: 700;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  margin-bottom: 100px;
+}
+
+.hero {
+  background-color: var(--bs-hero);
+  width: 1720px;
+  height: 620px;
+  border-radius: 48px;
+}
+
+.register {
+  margin-top: 50px;
+  align-items: center;
+}
+.btn1 {
+  background-color: var(--bs-btn);
+  font-size: x-large;
+  width: 363px;
+  height: 52px;
+  display: inline-flex;
+  padding: 3px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.btn2 {
+  background-color: var(--bs-btn);
+
+  display: inline-flex;
+  padding: 3px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.cloud {
+  display: flex;
+  width: 436px;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.registration {
+  background-color: var(--bs-hero);
+  margin-top:200px;
+  padding: 15px;
+  border-radius: 24px;
+  width: 849px;
+  height: 378px;
+  box-shadow: 0px 10px 20px 0px #00233a,
+    0px 20px 20px 0px rgba(255, 255, 255, 0.5) inset,
+    0px -20px 20px 0px #00233a inset;
+}
+
+.inputs{
+
+}
