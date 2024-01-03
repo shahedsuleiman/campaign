@@ -20,26 +20,11 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+
   margin-bottom: 80px;
   padding-bottom: 120px;
-  /* background-color:var(--bs-blue) ; */
-
-  background: -moz-linear-gradient(
-    top,
-    rgba(0, 0, 0, 0.65) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  background: -webkit-linear-gradient(
-    top,
-    rgba(0, 0, 0, 0.65) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.65) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+  background-color: var(--bs-blue);
+  height: 100px;
 }
 #navbarNavDropdown.collapsing .navbar-nav,
 #navbarNavDropdown.show .navbar-nav {
@@ -55,6 +40,7 @@ body {
   text-align: center;
   margin-top: 90px;
 }
+
 .heading2 {
   font-size: 72px;
   font-weight: 700;
@@ -93,7 +79,6 @@ body {
 }
 .btn2 {
   background-color: var(--bs-btn);
-
   display: inline-flex;
   padding: 3px 20px;
   justify-content: center;
@@ -170,11 +155,29 @@ body {
 
 .footer {
   display: flex;
-  width:1920px;
-  height:490;
+  width: 1920px;
+  height: 490;
   padding: 64px 328.28px 126px 329px;
   justify-content: center;
   align-items: center;
   border-radius: 48px 48px 0px 0px;
   background: #fff;
+}
+
+.subs {
+  color: #fff;
+
+  font-family: Geeza Pro;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+}
+.subs sub {
+  color: #fff;
+  font-family: Geeza Pro;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
 }
