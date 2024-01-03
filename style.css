@@ -110,7 +110,7 @@ body {
 
 .registration {
   background-color: var(--bs-hero);
-  margin-top:200px;
+  margin-top: 200px;
   padding: 15px;
   border-radius: 24px;
   width: 849px;
@@ -120,6 +120,43 @@ body {
     0px -20px 20px 0px #00233a inset;
 }
 
-.inputs{
+#form-control input {
+  border-radius: 12px;
+}
 
+#form-control input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+.speakers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 700px;
+  border-radius: 48px;
+  background: var(--bs-hero);
+  box-shadow: 0px 40px 80px 0px rgba(255, 255, 255, 0.5) inset,
+    0px -40px 80px 0px rgba(0, 0, 0, 0.5) inset;
+}
+
+.box {
+  display: flex;
+  width: 500px;
+  height: 70px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: var(--bs-btn);
+}
+
+
+.width h1{
+  margin-top:30px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  margin-left: 40px;
 }
