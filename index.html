@@ -21,7 +21,7 @@
 
     <div id="mainNavigation">
       <nav role="navigation navbar navbar-expand-lg navbar-dark bg-dark" style="height:100px;">
-        <div class="container-fluid py-3 text-center flex-row justify-between" style="height:100px;">
+        <div class="container py-3 text-center flex-row justify-between" style="height:100px;">
           <img src="/assets/logo.png" alt="" class="invert logo img-fluid" />
         </div>
       </nav>
@@ -29,7 +29,7 @@
 
     </div>
 
-    <main class=" container-fluid mt-5  p-20">
+    <main class=" container mt-5 d-flex flex-column flex-md-col p-20">
      
       <div class="container">
         <div class="d-flex flex-column justify-content-center">
@@ -37,13 +37,15 @@
           <h1 class="heading2">Cybersecurity and Cloud Computing</h1>
         </div>
       </div>
-  
+   
+
+      
       <div
-        class="container-fluid d-flex align-items-center justify-content-center mt-4 hero"
+        class="container d-flex align-items-center justify-content-center mt-4 hero heroResponsive"
       > 
   
-        <div class="container p-10">
-          <h1 class="text-light mb-10 ms-2">
+        <div class="container-md container-sm p-4 p-sm-4 p-md-10 ">
+          <h1 class="text-light mb-4 mb-md-10 ms-2">
             Smart technology vision
             <span style="color: #ffd26c; font-weight: 700">2024</span>
           </h1>
@@ -57,14 +59,14 @@
             through experts and consultants in the field of cybersecurity
             digital crimes, and cloud computing.
           </p>
-          <div class="register d-flex flex-row justify-content-between">
-            <div class="col-md-4 col-lg-2">
+          <div class="register d-flex flex-column flex-md-row justify-content-between align-items-center align-items-md-start">
+            <div class="col-md-4 col-lg-2 mb-4 mb-md-0">
               <button class="btn1 btn-block">
                 Register for <b class="ms-1 me-1">free</b> now!
               </button>
             </div>
-            <div class="d-flex flex-row justify-content-between gap-3 mt-4">
-              <div class="d-flex flex-row">
+            <div class="d-flex flex-column flex-md-row flex-sm-row">
+              <div class="d-flex flex-row align-items-center mb-2 mb-md-0">
                 <svg
                   width="30"
                   height="30"
@@ -110,7 +112,7 @@
             </div>
           </div>
         </div>
-        <div class="container p-6">
+        <div class="container-md p-4">
           <img src="/assets/header.png" alt="" class="invert img-fluid" />
         </div>
       </div>
@@ -118,11 +120,11 @@
       <div
         class="container d-flex align-items-center justify-content-center mt-4 " 
       >
-        <div class="container " >
-          <div class="d-flex flex-column justify-content-between ">
+        <div class="container con-cloud " >
+          <div class=" d-flex flex-column justify-content-between ">
             <h1 class="heading2 mt-4 py-4" >Webinar Agenda</h1>
-            <div class="d-flex flex-row justify-content-center">
-              <div class="cloud">
+            <div class="row">
+              <div class="cloud col-md-6 ">
                 <h1 class="text-light">Cloud Computing</h1>
                 <img
                   src="/assets/icon1.png"
@@ -147,7 +149,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="cloud">
+              <div class="cloud col-md-6 ">
                 <h1 class="text-light">Cyber security</h1>
                 <img
                   src="/assets/icon2.png"
@@ -177,19 +179,19 @@
       </div>
 
       <div
-        class="registration container d-flex align-items-center justify-content-center"
+        class="registration container d-flex  align-items-center justify-content-center"
       >
         <div
           class="d-flex flex-column w-75 align-items-center justify-content-center" style="margin: 38px;"
         >
-          <h1 class="text-light fs-2">Register now for</h1>
-          <h1 class="fw-bold text-light mb-3">free</h1>
-          <h1 class="fs-6 lh-1 mb-3">The latest digital marketing techniques</h1>
+          <h1 class="text-light fs-2 text-center">Register now for</h1>
+          <h1 class="fw-bold text-light mb-3 text-center">free</h1>
+          <h1 class="fs-6 lh-1 mb-3 text-center">The latest digital marketing techniques</h1>
           <div class="col-md-4 col-lg-2">
             <button class="btn2 btn-block mt-4">Send</button>
           </div>
         </div>
-        <form id="form-control" class="container w-90">
+        <form id="form-control" class="container w-90 ">
           <div class="row">
             <div class="col-md-6 mb-3">
               <label for="firstName" class="form-label">First Name</label>
@@ -219,87 +221,98 @@
         </form>
       </div>
 
-      <div class="container d-flex align-items-center justify-content-center" style="margin-bottom: 380px;">
-        <div
-          class="d-flex flex-column align-items-center justify-content-center"
-        >
+
+
+  
+
+      <div class="container  con-2 d-flex align-items-center justify-content-center" style="margin-bottom: 380px;">
+        <div class="d-flex flex-column align-items-center justify-content-center">
           <h1 class="heading2 mt-4 py-4">Speakers</h1>
-          <div class="d-flex flex-row">
-            <div
-              class="d-flex flex-column align-items-start justify-content-center"
-            >
-              <div class="container speakers ms-3" style="margin-right: 390px">
-                <img src="/assets/02.png" alt="" class="invert" />
-                <div class="box">
-                  <p class="fs-4">MCT, MCSA, CPM, AZ104, AZ500</p>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="container d-flex flex-column align-items-center justify-content-center mb-4" >
+                <div class="container speakers mb-3">
+                  <img src="/assets/02.png" alt="" class="invert" />
+                  <div class="box">
+                    <p class="fs-4">MCT, MCSA, CPM, AZ104, AZ500</p>
+                  </div>
                 </div>
-              </div>
-              <div class="width">
-                <h1 class="text-light">Eng. Abdullah Sawalha</h1>
-                <ul>
-                  <li class="text-light">
-                    Winner of first place Microsoft Innovation Award
-                  </li>
-                  <li class="text-light">
-                    Certified trainer, project manager, developer and researcher
-                    at Microsoft, a global cloud systems company
-                  </li>
-                  <li class="text-light">
-                    With more than 18 years of experience in the field of
-                    information technology
-                  </li>
-                </ul>
+                <div class="width">
+                  <h1 class="text-light">Eng. Abdullah Sawalha</h1>
+                  <ul>
+                    <li class="text-light">
+                      Winner of first place Microsoft Innovation Award
+                    </li>
+                    <li class="text-light">
+                      Certified trainer, project manager, developer and researcher
+                      at Microsoft, a global cloud systems company
+                    </li>
+                    <li class="text-light">
+                      With more than 18 years of experience in the field of
+                      information technology
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-
-            <div
-              class="d-flex flex-column align-items-center justify-content-center"
-            >
-              <div class="container speakers">
-                <img src="/assets/01.png" alt="" class="invert" />
-                <div class="box">
-                  <p class="fs-4">CND, CEH, CSA, CHFI, CISM</p>
+            <div class="col-md-6">
+              <div class=" col-m container d-flex flex-column align-items-center justify-content-center mb-4" >
+                <div class="container speakers mb-3">
+                  <img src="/assets/01.png" alt="" class="invert" />
+                  <div class="box">
+                    <p class="fs-4">CND, CEH, CSA, CHFI, CISM</p>
+                  </div>
                 </div>
-              </div>
-              <div class="width">
-                <h1 class="text-light">Eng. Muhammad Abu Allawi</h1>
-                <ul>
-                  <li class="text-light">
-                    He received the award for the best evaluation as a
-                    cybersecurity trainer for the year 2021/2022
-                  </li>
-                  <li class="text-light">
-                    Cybersecurity expert and global consultant in digital
-                    security and cybercrime
-                  </li>
-                  <li class="text-light">
-                    He holds a number of international accreditations in the
-                    field of cybersecurity
-                  </li>
-                  <li class="text-light">
-                    More than 18 years of experience in information technology
-                    and cybersecurity
-                  </li>
-                </ul>
+                <div class="width">
+                  <h1 class="text-light">Eng. Muhammad Abu Allawi</h1>
+                  <ul>
+                    <li class="text-light">
+                      He received the award for the best evaluation as a
+                      cybersecurity trainer for the year 2021/2022
+                    </li>
+                    <li class="text-light">
+                      Cybersecurity expert and global consultant in digital
+                      security and cybercrime
+                    </li>
+                    <li class="text-light">
+                      He holds a number of international accreditations in the
+                      field of cybersecurity
+                    </li>
+                    <li class="text-light">
+                      More than 18 years of experience in information technology
+                      and cybersecurity
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
- 
+      
     </main>
-    <footer class="container-fluid">
+
+
+
+    <footer class="container">
       <div class="container d-flex flex-column align-items-center justify-content-center">
         <h1 class="heading2 mt-4 py-4">Internationally accredited by</h1>
         <div class="footer">
-          <div class="d-flex flex-row justify-content-between">
-            <img src="/assets/image1.png" alt=""  />
-            <img src="/assets/layer.png" alt=""  />
-            <img src="/assets/image2.png" alt="" />
+          <div class="row ">
+            <img src="/assets/image1.png" class="col-md-3 " alt="" style="width: 215px;
+            height: 184.183px;" />
+            <img src="/assets/layer.png" class="col-md-3 " alt=""  style="width: 656px;
+            height: 230px;" />
+            <img src="/assets/image2.png" class="col-md-3 " alt="" style="width: 215.72px;
+            height: 180px;" />
           </div>
         </div>
       </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>

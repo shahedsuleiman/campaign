@@ -3,16 +3,9 @@
   --bs-hero: #219ebc;
   --bs-btn: #ffd26c;
 }
+
 body {
   background-color: var(--bs-blue);
-}
-
-#mainNavigation a {
-  font-family: "Cabin", sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 #mainNavigation {
@@ -139,6 +132,7 @@ li {
   align-items: center;
   width: 500px;
   height: 700px;
+
   border-radius: 48px;
   background: var(--bs-hero);
   box-shadow: 0px 40px 80px 0px rgba(255, 255, 255, 0.5) inset,
@@ -196,4 +190,113 @@ li {
   font-style: normal;
   font-weight: 700;
   line-height: 38px;
+}
+
+/* responsive */
+@media screen and (max-width: 431px) {
+  .heroResponsive {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-container {
+    order: 1;
+  }
+
+  .image-container {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .registration {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .registration > .d-flex {
+    width: 90%;
+    margin: 20px;
+    max-width: 400px;
+  }
+
+  .con-2 {
+    width: auto;
+    height: auto;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .col-m {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .con-cloud {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 128px;
+  }
+  .cloud {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+  .heading {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+  }
+
+  .speakers {
+    display: flex;
+    width: 429px;
+    padding: 48px 0px 67.644px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.196px;
+  }
+
+  .box {
+    display: flex;
+    padding: 8.58px;
+    justify-content: center;
+    align-items: center;
+    gap: 8.58px;
+    width:429px;
+    height:auto;
+  }
+
+  .heading2 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+  }
+
+  #mainNavigation {
+    width: 100%;
+    height: 80px;
+  }
+  .footer {
+    height: auto;
+    width: auto;
+  }
+  
 }
