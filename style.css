@@ -11,6 +11,13 @@ body {
 html,
 body {
   overflow-x: hidden;
+  max-width: 1920px;;
+}
+
+main{
+  max-width: calc(100% - 200px);
+  display: flex;
+  justify-content: center;
 }
 
 .nav-button {
@@ -290,7 +297,7 @@ li {
 
 /* Responsive */
 
-@media screen and (max-width: 768px) and (min-width: 431px) {
+@media screen and (max-width: 768px)  {
   .first {
     color: #fff;
     text-align: center;
@@ -504,17 +511,17 @@ li {
   }
 
   .svg1 {
-    visibility: hidden;
+   display:none;
   }
 
   .svg2 {
-    visibility: hidden;
+    display:none;
   }
   .svg3 {
-    visibility: hidden;
+    display:none;
   }
   .svg4 {
-    visibility: hidden;
+    display:none;
   }
 
   .svg5 {
@@ -526,7 +533,7 @@ li {
   }
 }
 
-@media screen and (max-width: 430px) and (min-width: 375px) {
+@media screen and (max-width: 430px)  {
   .first {
     color: #fff;
 
