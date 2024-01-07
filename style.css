@@ -51,6 +51,7 @@ body {
   position: absolute;
   top: 760px;
   left: 240px;
+  clip-path: inset(0 57% 0 0);
 }
 
 .svg2{
