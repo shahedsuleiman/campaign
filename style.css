@@ -13,16 +13,6 @@ body {
   overflow-x: hidden;
 }
 
-/* #mainNavigation {
-  position: fixed;
-  top: 0;
-  left: 0;
-  margin-bottom: 80px;
-  padding-bottom: 120px;
-  width: 1920px;
-  height: 4778px;
-} */
-
 .nav-button {
   display: inline-flex;
   padding: 6px 30px 6px 31px;
@@ -32,7 +22,7 @@ body {
   border-radius: 12px;
   border: 1px solid #ffd26c;
   color: #ffd26c;
-
+  justify-content: end;
   text-align: center;
   font-family: Geeza Pro;
   font-size: 32px;
@@ -41,90 +31,89 @@ body {
   line-height: 38px;
 }
 
-/*
 .nav-items {
   display: flex;
-} */
+  justify-content: space-between;
+}
 
-
-.svg1{
+.svg1 {
   position: absolute;
   top: 760px;
   left: 240px;
-  clip-path: inset(0 57% 0 0);
+  clip-path: inset(0 58% 0 0);
 }
 
-.svg2{
+.svg2 {
   position: absolute;
   top: 443px;
   left: 330px;
 }
 
-.svg3{
+.svg3 {
   position: absolute;
   top: 480px;
   left: 1000px;
 }
 
-.svg4{
+.svg4 {
   position: absolute;
   top: 1144px;
   left: 330px;
 }
 
-.svg5{
+.svg5 {
   position: absolute;
   top: 540px;
   left: 960px;
 }
-.left-svg{
+.left-svg {
   position: absolute;
   top: 1500px;
   left: 200px;
 }
 
-.left-svg1{
+.left-svg1 {
   position: absolute;
   top: 1500px;
   left: 260px;
 }
 
-.left-svg2{
+.left-svg2 {
   position: absolute;
   top: 1940px;
   left: 190px;
 }
 
-.right-svg3{
+.right-svg3 {
   position: absolute;
   top: 1560px;
- right: 100px;
+  right: 100px;
 }
-.right-svg{
+.right-svg {
   position: absolute;
   top: 1490px;
- right: 60px;
+  right: 60px;
 }
-.right-svg1{
+.right-svg1 {
   position: absolute;
   top: 1930px;
- right: 90px;
+  right: 90px;
 }
 
-.left1{
+.left1 {
   position: absolute;
   top: 2670px;
- left: 90px;
+  left: 90px;
 }
-.left2{
+.left2 {
   position: absolute;
   top: 2695px;
- left: 120px;
+  left: 120px;
 }
-.left3{
+.left3 {
   position: absolute;
   top: 3720px;
- left: 130px;
+  left: 130px;
 }
 
 .heading {
@@ -162,19 +151,14 @@ li {
   margin-bottom: 40px;
 }
 
-/* .logo {
+.logo {
   display: flex;
   width: 236px;
   height: 70px;
   align-items: center;
-  gap: 10.205px;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
-  gap: 6.305px;
-} */
+}
 
 .hero {
   background-color: var(--bs-hero);
@@ -304,7 +288,6 @@ li {
   line-height: 38px;
 }
 
-
 /* Responsive */
 
 @media screen and (max-width: 768px) and (min-width: 431px) {
@@ -337,9 +320,10 @@ li {
   }
 
   .hero {
-    width: 100%;
+    /* width: 100%; */
     padding-top: 30px;
-    height: auto;
+    width: 768px;
+    height: 1060px;
     flex-direction: column-reverse;
     align-items: center;
   }
@@ -517,6 +501,28 @@ li {
     max-width: calc(42.222% - 5px);
     margin: 5px;
     box-sizing: border-box;
+  }
+
+  .svg1 {
+    visibility: hidden;
+  }
+
+  .svg2 {
+    visibility: hidden;
+  }
+  .svg3 {
+    visibility: hidden;
+  }
+  .svg4 {
+    visibility: hidden;
+  }
+
+  .svg5 {
+    width: 642.5px;
+    height: 550.5px;
+    flex-shrink: 0;
+    left: 50px;
+    top: 655px;
   }
 }
 
@@ -764,11 +770,11 @@ height: 305px; */
     font-weight: 400;
     line-height: 24px;
   }
-   
+
   .footer {
     border-radius: 24px 24px 0px 0px;
     width: 1104px;
-    height:745px;
+    height: 745px;
   }
   .footer .row {
     display: flex;
@@ -783,5 +789,24 @@ height: 305px; */
     max-width: calc(33.333% - 10px);
     margin: 5px;
     box-sizing: border-box;
+  }
+
+  .svg1,
+  .svg2,
+  .svg3,
+  .svg4,
+  .svg5,
+  .left-svg,
+  .left-svg1,
+  .left-svg2,
+  .right-svg3,
+  .right-svg,
+  .right-svg1,
+  .left1,
+  .left2,
+  .left3 {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
   }
 }
