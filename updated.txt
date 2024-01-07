@@ -1645,6 +1645,18 @@ height: 305px; */
   </body>
 </html>
 
+first :
+
+spicify the layout of the page .
+<div class="container-fluid">
+<header></header> 
+<main >
+    {here the width is -200px ,
+and all the content of the page is displayed here }
+</main>
+<footer></footer>
+</div>
+
 
 
 
