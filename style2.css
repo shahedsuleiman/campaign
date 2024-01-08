@@ -255,10 +255,13 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   padding:20px;
     gap: 12px;
   }
 
   .cloud ul li {
     margin-bottom: 10px;
+    min-width : 395px;
+    justify-content: center;
   }
 }
