@@ -635,4 +635,9 @@ main {
   .roww{
     width: 435px;
   }
+
+  .col6{
+    width:444px;
+    margin-right:1px;
+  }
 }
