@@ -205,7 +205,7 @@ main {
 
 .footer {
   border-radius: 24px 24px 0px 0px;
-  max-width: 1900px;
+  max-width: 1920px;
   height: auto;
   background-color: white;
 }
@@ -255,9 +255,10 @@ main {
 
 .relative  .svg5 {
   position: absolute;
-  /* left:177px;
-  top:-10px; */
+  left:177px;
+  top:-10px; 
   /* width:2000px; */
+  /* aspect-ratio: 1/2; */
 
 }
 
@@ -265,7 +266,55 @@ main {
   display:none;
 }
 
+.left-svg {
+  position: absolute;
+  top: 1500px;
+  left: 200px;
+}
 
+.left-svg1 {
+  position: absolute;
+  top: 1500px;
+  left: 260px;
+}
+
+.left-svg2 {
+  position: absolute;
+  top: 1940px;
+  left: 190px;
+}
+
+.right-svg3 {
+  position: absolute;
+  top: 1560px;
+  right: 100px;
+}
+.right-svg {
+  position: absolute;
+  top: 1490px;
+  right: 60px;
+}
+.right-svg1 {
+  position: absolute;
+  top: 1930px;
+  right: 90px;
+}
+
+.left1 {
+  position: absolute;
+  top: 2670px;
+  left: 90px;
+}
+.left2 {
+  position: absolute;
+  top: 2695px;
+  left: 120px;
+}
+.left3 {
+  position: absolute;
+  top: 3720px;
+  left: 130px;
+}
 /* responsive */
 @media (max-width: 320px) {
   .hero {
