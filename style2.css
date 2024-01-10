@@ -687,7 +687,7 @@ main {
     min-width: 421px;
   }
   .footer .row {
-    min-width: 421px;
+    width: 421px;
   }
 
   .svg1 {
@@ -721,6 +721,10 @@ main {
     left:370px;
     top:-50px;
     width:62px;
+  }
+
+  .hi {
+    margin-left:38px;
   }
 }
 
