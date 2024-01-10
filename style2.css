@@ -8,16 +8,32 @@ body {
   background-color: var(--bs-blue);
 }
 
-/* html,
-body {
-  overflow-x: hidden;
-  max-width: 1920px;
-} */
-
 main {
   max-width: calc(1920px - 200px);
   display: flex;
   justify-content: center;
+}
+.nav-button {
+  display: inline-flex;
+  padding: 6px 30px 6px 31px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bs-blue);
+  border-radius: 12px;
+  border: 1px solid #ffd26c;
+  color: #ffd26c;
+  justify-content: end;
+  text-align: center;
+  font-family: Geeza Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
 }
 
 .heading {
@@ -74,7 +90,7 @@ main {
 .btn1 {
   background-color: var(--bs-btn);
   font-size: x-large;
-  width: auto;
+  max-width: auto;
   height: 52px;
   display: inline-flex;
   padding: 3px 20px;
@@ -95,15 +111,11 @@ main {
   justify-content: center;
 }
 
-
-
 .cloud {
   display: flex;
-  /* width: 436px; */
   flex-direction: column;
   align-items: center;
   gap: 57px;
-  /* margin: 89px; */
 }
 .cloud ul {
   padding-left: 0;
@@ -118,14 +130,12 @@ main {
   margin-bottom: 15px;
 }
 
-
 .registration {
   background-color: var(--bs-hero);
   margin-top: 200px;
   margin-bottom: 200px;
   padding: 15px;
   border-radius: 24px;
-  /* max-width: 849px; */
   height: 378px;
   align-content: center;
   align-items: center;
@@ -156,7 +166,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 500px; 
+  width: 500px;
   height: 700px;
   border-radius: 48px;
   background: var(--bs-hero);
@@ -184,31 +194,37 @@ main {
 }
 
 .width {
-  min-width: 495px;
-  /* height: 100px; */
+  max-width: 507px;
   padding: 30px;
 }
- 
+.width ul li {
+  line-height: 38px;
+  padding-top: 10px;
+  text-align: center;
+}
+
 .footer {
   border-radius: 24px 24px 0px 0px;
-  min-width: auto;
-  height: 745px;
+  max-width: 1900px;
+  height: auto;
   background-color: white;
 }
 .footer .row {
   display: flex;
-  align-items: center;
-  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
-  margin: 0 -5px;
+  align-items: center;
+  max-width: 1857px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* padding: 130px; */
+  gap: 88px;
 }
 
-.footer .row .col-md-3 {
+/* .footer .row .col-md-3 {
   max-width: calc(33.333% - 10px);
   margin: 5px;
   box-sizing: border-box;
-}
+} */
 
 /* responsive */
 @media (max-width: 320px) {
@@ -258,15 +274,11 @@ main {
     align-items: center;
     gap: 48px;
     min-width: 320px;
-
   }
   .speakers-responsive .row {
     flex-direction: column-reverse;
   }
 
-  /* .speakers-responsive .row .col-md-6 {
-    margin-bottom: 200px;
-  } */
   .con-2 {
     display: flex;
     flex-direction: column;
@@ -283,13 +295,10 @@ main {
     align-items: center;
   }
 
-  .one{
-    max-width:500px;
+  .one {
+    max-width: 500px;
   }
-  /* .speakers img .one {
-    width: 407px;
-    height: 305px;
-  } */
+
   .box {
     display: flex;
     padding: 8.58px;
@@ -324,8 +333,6 @@ main {
     line-height: 24px;
   }
 }
-
-
 
 @media (max-width: 431px) {
   .hero {
@@ -356,7 +363,6 @@ main {
     flex-direction: column;
     align-items: center;
     row-gap: 48px;
-    /* margin: 89px; */
   }
 
   .cloud ul {
@@ -376,15 +382,11 @@ main {
     align-items: center;
     gap: 48px;
     min-width: 320px;
-
   }
   .speakers-responsive .row {
     flex-direction: column-reverse;
   }
 
-  /* .speakers-responsive .row .col-md-6 {
-    margin-bottom: 200px;
-  } */
   .con-2 {
     display: flex;
     flex-direction: column;
@@ -401,13 +403,10 @@ main {
     align-items: center;
   }
 
-  .one{
-    max-width:500px;
+  .one {
+    max-width: 500px;
   }
-  /* .speakers img .one {
-    width: 407px;
-    height: 305px;
-  } */
+
   .box {
     display: flex;
     padding: 8.58px;
@@ -442,7 +441,8 @@ main {
     line-height: 24px;
   }
 }
-@media (max-width: 768px) {
+
+@media (max-width: 770px) {
   .hero {
     min-width: 431px;
     max-width: 768px;
@@ -490,37 +490,29 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding-left:30px;
+    /* align-items: center; */
+    padding-left: 30px;
     gap: 15px;
   }
 
   .cloud ul li {
     margin-bottom: 10px;
-    min-width : 395px;
+    min-width: 395px;
     justify-content: center;
   }
 
-  .registration  {
+  .registration {
     min-width: 432px;
     height: 594px;
-    padding-top:50px;
-
-
+    padding-top: 50px;
   }
 
   #form-control {
-
     padding-bottom: 50px;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
   }
-  /* #form-control .row {
-    display: flex;
-    flex-wrap: wrap;
-    
-  } */
 
   #form-control .col-md-6 {
     padding-left: 5px;
@@ -530,8 +522,6 @@ main {
     flex-shrink: 0;
   }
   #form-control .col-md-12 {
-    /* padding-left: 5px;
-    padding-right: 5px; */
     width: 384px;
     height: 48px;
     flex-shrink: 0;
@@ -548,7 +538,7 @@ main {
     padding-right: 5px;
     width: 260px;
     height: 48px;
-    /* flex-shrink: 0; */
+    flex-shrink: 0;
   }
 
   #form-control .form-label {
@@ -566,15 +556,12 @@ main {
     align-items: center;
     gap: 48px;
     min-width: 320px;
-
   }
   .speakers-responsive .row {
     flex-direction: column-reverse;
+    width: 200px;
   }
 
-  /* .speakers-responsive .row .col-md-6 {
-    margin-bottom: 200px;
-  } */
   .con-2 {
     display: flex;
     flex-direction: column;
@@ -583,7 +570,8 @@ main {
   }
   .speakers {
     display: flex;
-    min-width: 300px;
+    width: 400px;
+    height: auto;
     padding: 36px 0px 63px 0px;
     flex-direction: column;
     justify-content: center;
@@ -591,25 +579,23 @@ main {
     align-items: center;
   }
 
-  .one{
-    max-width:500px;
+  .one {
+    max-width: 400px;
+    height: 434px;
   }
-  /* .speakers img .one {
-    width: 407px;
-    height: 305px;
-  } */
+
   .box {
     display: flex;
     padding: 8.58px;
     justify-content: center;
     align-items: center;
     gap: 8.58px;
-    min-width: 360px;
+    width: 400px;
   }
 
   .width {
     display: flex;
-    width: 348px;
+    min-width: 300px;
     flex-direction: column;
     align-items: center;
     padding-left: 25px;
@@ -631,13 +617,234 @@ main {
     font-weight: 400;
     line-height: 24px;
   }
-
-  .roww{
-    width: 435px;
+  .margin {
+    margin-left: 1px;
   }
 
-  .col6{
-    width:444px;
-    margin-right:1px;
+  .roww {
+    width: 300px;
+    flex-direction: column-reverse;
+  }
+
+  .col6 {
+    width: 200px;
+    margin-right: 1px;
+  }
+
+  .footer {
+    min-width: 421px;
+  }
+  .footer .row {
+    min-width: 421px;
+
+}
+
+}
+
+@media (max-width: 1440px) {
+  .hero {
+    /* min-width: 768px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    border-radius: 24px;
+  }
+  .heading {
+    min-width: 395px;
+    text-align: center;
+  }
+
+  .heading2 {
+    min-width: 395px;
+    text-align: center;
+    font-size: 60px;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+  .btn1 {
+    width:auto;
+  }
+  .img-header {
+    /* min-width: 677px;
+    max-width: 1000px; */
+    height: auto;
+  }
+  .register {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero-content {
+    padding: 20px;
+  }
+  .icons {
+    padding-bottom: 10px;
+  }
+
+  .cloud ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    gap: 15px;
+  }
+
+  .cloud ul li {
+    margin-bottom: 10px;
+    min-width: 395px;
+    justify-content: center;
+  }
+
+  .registration {
+    min-width: 432px;
+    height: 490px;
+    /* padding-top: 30px; */
+  }
+  .img1 {
+    width: 323px;
+  }
+  #form-control {
+    /* padding-bottom: 30px; */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #form-control .col-md-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 180px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+  #form-control .col-md-12 {
+    width: 384px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+  #form-control .col-md-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 99px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+  #form-control .col-md-8 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 260px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  #form-control .form-label {
+    margin-bottom: 5px;
+    margin-top: 7px;
+  }
+
+  #form-control .form-control {
+    align-items: center;
+  }
+
+  .speakers-responsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    min-width: 320px;
+  }
+  .speakers-responsive .row {
+    flex-direction: column-reverse;
+    width: 200px;
+  }
+
+  .con-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .speakers {
+    display: flex;
+    width: 400px;
+    height: auto;
+    padding: 36px 0px 63px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .one {
+    max-width: 400px;
+    height: 434px;
+  }
+
+  .box {
+    display: flex;
+    padding: 8.58px;
+    justify-content: center;
+    align-items: center;
+    gap: 8.58px;
+    width: 400px;
+  }
+
+  .width {
+    display: flex;
+    min-width: 300px;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 25px;
+    row-gap: 34px;
+  }
+  .width h1 {
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+  }
+  .width li {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .margin {
+    margin-left: 1px;
+  }
+
+ 
+
+
+  .col6 {
+    width: 200px;
+    margin-right: 1px;
+  }
+  .footer {
+    min-width: 421px;
+  }
+
+    .footer .row {
+      min-width: 421px;
+      max-width:1035px;
+      padding-top:40px;
+
+  
+  }
+  .footer .row .col-md-6 {
+    height: 342px;
+    min-width: 421px;
   }
 }

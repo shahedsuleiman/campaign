@@ -15,8 +15,24 @@
   </head>
   <body>
     <header class="container-fluid px-0">
+      <div id="mainNavigation" class="container-fluid px-0">
+        <nav
+          role="navigation navbar navbar-expand-lg navbar-dark bg-dark"
+          style="height: 100px"
+        >
+          <div
+            class="container py-3 text-center flex-row justify-between"
+            style="height: 100px"
+          >
+            <div class="nav-items">
+              <img src="/assets/logo.png" alt="" class="invert logo img-fluid" />
+              <button class="nav-button">العربية</button>
+            </div>
+          </div>
+        </nav>
+      </div>
       <main
-        class="container-fluid d-flex flex-column justify-content-center"
+        class="container-fluid d-flex flex-column justify-content-center px-0"
 
       >
       
@@ -48,7 +64,7 @@
               </p>
   
               <div class="register   justify-content-between flex-wrap align-items-center  row">
-                <button class="btn1 flex-wrap btn-block col-md-6 ms-4">
+                <button class="btn1 flex-wrap btn-block col-md-6 ">
                   <span>Register for <b class="ms-1 me-1">free</b> now!</span>
                 </button>
                 <div class="d-flex icons col-md-6">
@@ -115,8 +131,8 @@
           class="container d-flex align-items-center justify-content-center mt-4"
         >
           <div class="container">
-            <div class="d-flex flex-column justify-content-between">
-              <h1 class="heading2 mt-4 py-4">Webinar Agenda</h1>
+            <div class="d-flex flex-column justify-content-between" style="margin-top:120px">
+              <h1 class="heading2 mt-4 py-4" >Webinar Agenda</h1>
               <div class="row con-cloud">
                 <div class="cloud col-md-6">
                   <h1 class="text-light">Cloud Computing</h1>
@@ -125,6 +141,7 @@
                     alt=""
                     class="invert  img-fluid"
                   />
+                  <div class="width">
                   <ul>
                     <li class="text-light">
                       Learn about the cloud system and the services provided by
@@ -140,7 +157,7 @@
                     <li class="text-light">
                       The importance of switching to the cloud system
                     </li>
-                  </ul>
+                  </ul></div>
                 </div>
                 <div class="cloud col-md-6">
                   <h1 class="text-light">Cyber security</h1>
@@ -149,7 +166,7 @@
                     alt=""
                     class="invert  img-fluid"
                   />
-  
+                  <div class="width">
                   <ul>
                     <li class="text-light">
                       What are the modern technologies in cybersecurity
@@ -164,7 +181,7 @@
                       A world safe from hacks and vulnerabilities
                     </li>
                     <li class="text-light">Inspiring cyber experiences</li>
-                  </ul>
+                  </ul></div>
                 </div>
               </div>
             </div>
@@ -222,106 +239,110 @@
         </section>
 
 
-
-        <section class="container-fluid px-0">
-       
-          <div
-            class="d-flex flex-column justify-content-center align-items-center speakers-responsive"
-          >
-            <h1 class="heading2 mt-4 py-4">Speakers</h1>
-            <div class="d-flex justify-content-between">
-            <div class="row .roww" >
-              <div class="col-md-6 col6 " style="width: 650px;margin-right: 20px;">
-              
-                  <div class=" speakers mb-3">
-                    <img src="/assets/02.png" alt="" class="invert" />
-                    <div class="box">
-                      <p class="fs-4">MCT, MCSA, CPM, AZ104, AZ500</p>
+        <section class="container-fluid px-0 d-flex flex-column justify-content-center align-items-center">
+          <div class="container">
+            <div class="d-flex flex-column justify-content-between">
+              <h1 class="heading2 mt-4 py-4">Speakers</h1>
+              <div class="row con-cloud">
+                <div class="cloud col-md-6">
+                  
+                
+                    <div class=" speakers mb-3">
+                      <img src="/assets/02.png" alt="" class="invert img1" />
+                      <div class="box">
+                        <p class="fs-4">MCT, MCSA, CPM, AZ104, AZ500</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="width" >
-                    <h1 class="text-light">Eng. Abdullah Sawalha</h1>
-                    <ul >
-                      <li class="text-light">
-                        Winner of first place Microsoft Innovation Award
-                      </li>
-                      <li class="text-light">
-                        Certified trainer, project manager, developer and
-                        researcher at Microsoft, a global cloud systems company
-                      </li>
-                      <li class="text-light">
-                        With more than 18 years of experience in the field of
-                        information technology
-                      </li>
-                    </ul>
-                  </div>
-              </div>
-              <div class="col-md-6 col6" style="width: 650px">
-             
-                  <div class="container speakers mb-3">
-                    <img src="/assets/01.png" alt="" class="invert one" />
-                    <div class="box">
-                      <p class="fs-4">CND, CEH, CSA, CHFI, CISM</p>
+                    <div class="width " >
+                      <h1 class="text-light">Eng. Abdullah Sawalha</h1>
+                      <ul >
+                        <li class="text-light">
+                          Winner of first place Microsoft Innovation Award
+                        </li>
+                        <li class="text-light">
+                          Certified trainer, project manager, developer and
+                          researcher at Microsoft, a global cloud systems company
+                        </li>
+                        <li class="text-light">
+                          With more than 18 years of experience in the field of
+                          information technology
+                        </li>
+                      </ul>
                     </div>
-                  </div>
-                  <div class="width" style="margin-bottom:200px">
-                    <h1 class="text-light">Eng. Muhammad Abu Allawi</h1>
-                    <ul >
-                      <li class="text-light">
-                        He received the award for the best evaluation as a
-                        cybersecurity trainer for the year 2021/2022
-                      </li>
-                      <li class="text-light">
-                        Cybersecurity expert and global consultant in digital
-                        security and cybercrime
-                      </li>
-                      <li class="text-light">
-                        He holds a number of international accreditations in the
-                        field of cybersecurity
-                      </li>
-                      <li class="text-light">
-                        More than 18 years of experience in information technology
-                        and cybersecurity
-                      </li>
-                    </ul>
-                  </div>
-              
+               
+                </div>
+                <div class="cloud col-md-6">
+                
+               
+                    <div class="container speakers mb-3">
+                      <img src="/assets/01.png" alt="" class="invert one" />
+                      <div class="box">
+                        <p class="fs-4">CND, CEH, CSA, CHFI, CISM</p>
+                      </div>
+                    </div>
+                    <div class="width" style="margin-bottom:200px;">
+                      <h1 class="text-light">Eng. Muhammad Abu Allawi</h1>
+                      <ul >
+                        <li class="text-light">
+                          He received the award for the best evaluation as a
+                          cybersecurity trainer for the year 2021/2022
+                        </li>
+                        <li class="text-light">
+                          Cybersecurity expert and global consultant in digital
+                          security and cybercrime
+                        </li>
+                        <li class="text-light">
+                          He holds a number of international accreditations in the
+                          field of cybersecurity
+                        </li>
+                        <li class="text-light">
+                          More than 18 years of experience in information technology
+                          and cybersecurity
+                        </li>
+                      </ul>
+                    </div>
+                
+            
+                </div>
               </div>
-            </div>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <!-- <footer
-      class="container d-flex flex-column align-items-center justify-content-center"
-    >
-   
-      <h1 class="heading2 mt-4 py-4">Internationally accredited by</h1>
-      <div class="footer">
-        <div class="d-flex">
-          <img
-            src="/assets/image1.png"
-            class=""
-            alt=""
            
+              
+            </div>
+         
+        </div>
+
+        </section>
+     
+      </main>
+  
+      <h1 class="heading2 mt-4 py-4">Internationally accredited by</h1>
+      <footer class="footer" style="background-color: white;">
+        <div >
+          <div class="row">
+            <img
+            src="/assets/image1.png"
+            class="col-md-3"
+            alt=""
+            style="max-width: 215px; height: 184.183px"
           />
           <img
             src="/assets/layer.png"
-            class=""
+            class="col-md-6"
             alt=""
-      
+            style="max-width: 656px; height: 230px"
+  
           />
           <img
             src="/assets/image2.png"
-            class=" d-block"
+            class="col-md-3 d-block"
             alt=""
-          
+            style="max-width: 215.72px; height: 180px"
+  
           />
+          </div>
+      
         </div>
-      </div>
-
-    </footer> -->
+      </footer>
     </header>
 
     <script
