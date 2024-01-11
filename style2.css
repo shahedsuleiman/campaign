@@ -222,7 +222,6 @@ main {
 
 .hero .absolute {
   position: absolute;
-  /* Adjust top, left, right, or bottom values to position the SVG within its container */
   top: 130px;
   left: -75px;
   clip-path: inset(0 50% 0 0);
