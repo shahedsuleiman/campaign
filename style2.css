@@ -113,7 +113,7 @@ main {
 
 .registration {
   background-color: var(--bs-hero);
-  padding-top: 50px; 
+  padding-top: 50px;
   padding-bottom: 50px;
   border-radius: 24px;
   align-content: center;
@@ -181,9 +181,6 @@ main {
   padding-top: 10px;
   text-align: center;
 }
-
-
-
 
 /* responsive */
 @media (max-width: 320px) {
@@ -370,7 +367,6 @@ main {
 }
 
 @media (max-width: 425px) and (min-width: 320px) {
-
   .heading2 {
     min-width: 375px;
     font-size: 42px;
@@ -417,47 +413,47 @@ main {
   } */
 
   #form-control {
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  #form-control .col-md-6 {
+  /* #form-control .col-md-6 {
     padding-left: 5px;
     padding-right: 5px;
     width: 180px;
     height: 55px;
     flex-shrink: 0;
-  }
-  #form-control .col-md-12 {
+  } */
+  /* #form-control .col-md-12 {
     width: 384px;
     height: 60px;
     flex-shrink: 0;
-  }
-  #form-control .col-md-4 {
+  } */
+  /* #form-control .col-md-4 {
     padding-left: 5px;
     padding-right: 5px;
     width: 99px;
     height: 48px;
     flex-shrink: 0;
-  }
-  #form-control .col-md-8 {
+  } */
+  /* #form-control .col-md-8 {
     padding-left: 5px;
     padding-right: 5px;
     width: 260px;
     height: 48px;
     flex-shrink: 0;
-  }
+  } */
 
-  #form-control .form-label {
+  /* #form-control .form-label {
     margin-bottom: 5px;
     margin-top: 7px;
-  }
+  } */
 
-  #form-control .form-control {
+  /* #form-control .form-control {
     align-items: center;
-  }
+  } */
 
   .speakers-responsive {
     display: flex;
@@ -487,11 +483,6 @@ main {
     align-content: center;
     align-items: center;
   }
-
- 
-
-
-
 
   .box {
     display: flex;
@@ -539,14 +530,9 @@ main {
     width: 200px;
     margin-right: 1px;
   }
-
-
-
-
 }
 
 @media (max-width: 992px) and (min-width: 431px) {
-
   .heading {
     min-width: 395px;
     text-align: center;
@@ -587,14 +573,14 @@ main {
     min-width: 395px;
     justify-content: center;
   }
-.registration {
+  .registration {
     width: 500px;
-   
-  /*  height: 594px;
-    padding-top: 50px;*/
-  } 
 
-  #form-control {
+    /*  height: 594px;
+    padding-top: 50px;*/
+  }
+
+  /* #form-control {
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -607,8 +593,8 @@ main {
     width: 180px;
     height: 55px;
     flex-shrink: 0;
-  }
-  #form-control .col-md-12 {
+  } */
+  /* #form-control .col-md-12 {
     width: 384px;
     height: 60px;
     flex-shrink: 0;
@@ -626,12 +612,12 @@ main {
     width: 260px;
     height: 48px;
     flex-shrink: 0;
-  }
+  } */
 
-  #form-control .form-label {
+  /* #form-control .form-label {
     margin-bottom: 5px;
     margin-top: 7px;
-  }
+  } */
 
   #form-control .form-control {
     align-items: center;
@@ -665,9 +651,6 @@ main {
     align-content: center;
     align-items: center;
   }
-
- 
-
 
   .box {
     display: flex;
@@ -716,10 +699,6 @@ main {
     margin-right: 1px;
   }
 
-
-
- 
-
   .hi {
     margin-left: 38px;
   }
@@ -747,7 +726,6 @@ main {
     display: flex;
   }
 
-
   .cloud ul {
     display: flex;
     flex-direction: column;
@@ -764,16 +742,17 @@ main {
   }
 
   .registration {
-   /*  min-width: 432px;
+    /*  min-width: 432px;
     height: 490px; */
     /* padding-top: 30px; */
-  padding:50px;  } 
+    padding: 50px;
+  }
 
   .img1 {
     width: 323px;
   }
 
-  #form-control {
+  /* #form-control {
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -783,8 +762,8 @@ main {
   #form-control .col-md-6 {
     padding-left: 5px;
     padding-right: 5px;
-    /* width: 180px;
-    height: 55px; */
+    width: 180px;
+    height: 55px;
     flex-shrink: 0;
   }
   #form-control .col-md-12 {
@@ -795,22 +774,22 @@ main {
   #form-control .col-md-4 {
     padding-left: 5px;
     padding-right: 5px;
-    /* width: 99px;
-    height: 48px; */
+    width: 99px;
+    height: 48px;
     flex-shrink: 0;
   }
   #form-control .col-md-8 {
     padding-left: 5px;
     padding-right: 5px;
-    /* width: 260px;
-    height: 48px; */
+    width: 260px;
+    height: 48px;
     flex-shrink: 0;
   }
 
   #form-control .form-label {
     margin-bottom: 5px;
     margin-top: 7px;
-  }
+  } */
 
   #form-control .form-control {
     align-items: center;
@@ -891,7 +870,4 @@ main {
     width: 200px;
     margin-right: 1px;
   }
- 
-  
-
 }
