@@ -317,7 +317,105 @@ main {
 
 }
 
+@media screen and (max-width:360px){
+  .hero-content-sm-svg-5 {
+    position: absolute;
+    top: 3px;
+    left: 24px;
+    z-index: 1;
+  }
+  .header {
+    width:200px;
+  }
+  .hero-content h1 {
+    min-width: 228px
+  }
+  .p-hero {
+    width: 231px
+  } 
+  .hero-content-md-svg-1 {
+      right: 4%;
+      top: -72px;
+  }
+  .hero{
+    min-width:360px;
+  }
+  .heading2 {
+    min-width: 259px;
+    font-size: 28px;
+  }
+  .abdu {
+    margin-left: 50px;
+  }
+  .abdu .width {
+    margin-left: 50px;
+  }
+  .registration{
+    min-width: 360px;
+  }
+  .width {
+      display: flex;
+      width: 276px;
+      flex-direction: column;
+      align-items: center;
+      /* padding: 14px; */
+      row-gap: 34px;
+  }
+  .width h1 {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+  }
+  .width li {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .width ul{
+    width: 312px;
+  }         
+  .speakers {
+    width: 360px;
+    height: 477px;
+    }
+    .box {
+      width: 360px;
+    }
 
+  .row-hero {
+    
+      align-self:center;
+  }
+    .speakers-one {
+      width: 350px;
+      height: 331px;
+    }
+
+    .speakers-two{
+      width: 218px;
+    }
+      .footer{
+        min-width:359px;
+      }
+     .heading2 {
+      min-width: 243px;
+      font-size: 37px;
+    }
+ 
+  
+    .p-hero {
+      text-align: justify;
+    }
+    .row-footer {
+      min-width: 330px;
+    }
+  } 
 @media screen and (max-width:320px){
   .hero-content-sm-svg-5 {
       top: 36px;
