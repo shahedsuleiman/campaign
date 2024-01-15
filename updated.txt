@@ -1272,3 +1272,13 @@
 
     </main>
 >>>>>>> 0ac01dac7f1076a93953b0b2a90ce13682474656
+<header class="container-fluid px-0">
+          <div class="row mx-0 d-flex justify-content-between my-3" style="/* height: 100px; */flex-direction: row;">
+              <img src="assets/logo.png" alt="" class=" col-6 invert logo img-fluid" style="
+    display: block;
+">
+              <button class=" nav-button col-4">
+    <span class="fs-3">العربية</span>
+</button>
+          </div>
+    </header>
