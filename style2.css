@@ -533,8 +533,8 @@ body {
     font-size: 15px !important;
   }
   .nav-button {
-    width: 127px;
-  }
+    width: 102px;
+}
   .heading {
     font-size: 21px;
   }
@@ -630,5 +630,9 @@ body {
   }
   .names {
     padding-bottom: 0px;
+  }
+  .logo{
+    max-width: 149px !important;
+    padding-top: 6px ;
   }
 }
