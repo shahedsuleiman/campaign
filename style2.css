@@ -145,6 +145,10 @@ body {
   line-height: 38px;
   padding-top: 10px;
   text-align: center;
+  font-size: 16px;
+}
+.names {
+  padding-bottom : 29px;
 }
 .hero-content-svg-1 {
   position: absolute;
@@ -418,6 +422,9 @@ body {
   .speaker-margin-bottom{
     margin-bottom: 81px;
   }
+  .names {
+    padding-bottom: 0px;
+  }
 }
 @media screen and (max-width: 360px) {
   .hero-content-sm-svg-5 {
@@ -506,6 +513,9 @@ body {
   }
   .speaker-margin-bottom{
     margin-bottom: 81px;
+  }
+  .names {
+    padding-bottom: 0px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -617,5 +627,8 @@ body {
   }
   .speaker-margin-bottom{
     margin-bottom: 81px;
+  }
+  .names {
+    padding-bottom: 0px;
   }
 }
