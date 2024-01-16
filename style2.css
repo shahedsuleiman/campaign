@@ -4,7 +4,6 @@
   --bs-btn: #ffd26c;
   --bs-btn-hover: rgba(255, 210, 108, 0.8);
 }
-
 body {
   background-color: var(--bs-blue);
 }
@@ -14,13 +13,11 @@ body {
 .custom-mt-150 {
   margin-top: 150px;
 }
-
 .hero {
   background-color: var(--bs-hero);
   padding: 3rem;
   border-radius: 48px;
 }
-
 .nav-button {
   width: 170px;
   padding: 6px 30px 6px 31px;
@@ -34,7 +31,6 @@ body {
   font-family: Geeza Pro;
   font-size: 32px;
 }
-
 .heading {
   font-size: 40px;
   font-weight: 300;
@@ -42,7 +38,6 @@ body {
   text-align: center;
   margin-top: 90px;
 }
-
 .heading2 {
   font-size: 72px;
   font-weight: 700;
@@ -51,7 +46,6 @@ body {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-
 .img-header {
   flex-shrink: 0;
   height: 524px;
@@ -62,20 +56,17 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .p-hero {
   color: #fff;
   padding-top: 2rem;
   line-height: 35px;
   font-size: 20px;
 }
-
 .hero-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
 .btn-yellow {
   background-color: var(--bs-btn);
   color: #000;
@@ -83,11 +74,9 @@ body {
   min-width: 200px;
   margin-inline-end: 1rem;
 }
-
 .btn-yellow:hover {
   background-color: var(--bs-btn-hover);
 }
-
 .subs {
   color: #fff;
   font-size: 36px;
@@ -95,18 +84,15 @@ body {
   font-weight: 700;
   line-height: 38px;
 }
-
 .icons {
   justify-content: center;
 }
-
 .cloud {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 57px;
 }
-
 .registration {
   background-color: var(--bs-hero);
   padding-top: 50px;
@@ -118,15 +104,12 @@ body {
     0px 20px 20px 0px rgba(255, 255, 255, 0.5) inset,
     0px -20px 20px 0px #00233a inset;
 }
-
 #form-control input {
   border-radius: 12px;
 }
-
 #form-control input:focus {
   box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
 }
-
 .btn2 {
   background-color: var(--bs-btn);
   display: inline-flex;
@@ -135,7 +118,6 @@ body {
   align-items: center;
   border-radius: 12px;
 }
-
 .speakers {
   display: flex;
   flex-direction: column;
@@ -148,7 +130,6 @@ body {
   box-shadow: 0px 40px 80px 0px rgba(255, 255, 255, 0.5) inset,
     0px -40px 80px 0px rgba(0, 0, 0, 0.5) inset;
 }
-
 .box {
   display: flex;
   width: 500px;
@@ -390,11 +371,12 @@ body {
     width: 354px;
     height: 358px;
   }
-
   .speakers-two {
     width: 297px;
   }
-
+  .nav-button {
+    width: 127px;
+  }
   .heading2 {
     min-width: 327px;
     font-size: 38px;
@@ -433,6 +415,9 @@ body {
   .row-footer {
     min-width: 330px;
   }
+  .speaker-margin-bottom{
+    margin-bottom: 81px;
+  }
 }
 @media screen and (max-width: 360px) {
   .hero-content-sm-svg-5 {
@@ -443,6 +428,9 @@ body {
   }
   .header {
     width: 200px;
+  }
+  .heading {
+    font-size: 27px;
   }
   .hero-content h1 {
     min-width: 228px;
@@ -460,14 +448,11 @@ body {
   .heading2 {
     font-size: 28px;
   }
-  .abdu {
-    margin-left: 50px;
-  }
-  .abdu .width {
-    margin-left: 50px;
-  }
   .registration {
     min-width: 360px;
+  }
+  .nav-button {
+    width: 127px;
   }
   .width {
     display: flex;
@@ -519,6 +504,9 @@ body {
   .row-footer {
     min-width: 330px;
   }
+  .speaker-margin-bottom{
+    margin-bottom: 81px;
+  }
 }
 @media screen and (max-width: 320px) {
   .hero-content-sm-svg-5 {
@@ -534,8 +522,11 @@ body {
     line-height: 29px !important;
     font-size: 15px !important;
   }
+  .nav-button {
+    width: 127px;
+  }
   .heading {
-    font-size: 18px;
+    font-size: 21px;
   }
   .hero-content-md-svg-1 {
     right: 4%;
@@ -546,12 +537,6 @@ body {
   }
   .heading2 {
     font-size: 36px;
-  }
-  .abdu {
-    margin-left: 50px;
-  }
-  .abdu .width {
-    margin-left: 50px;
   }
   .registration {
     min-width: 320px;
@@ -629,5 +614,8 @@ body {
   }
   .fs-4 {
     font-size: calc(1.275rem + -0.7vw) !important;
+  }
+  .speaker-margin-bottom{
+    margin-bottom: 81px;
   }
 }
