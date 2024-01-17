@@ -364,6 +364,9 @@ body {
     width: 364px;
     height: 554px;
   }
+  .logo {
+    max-width:183px !important;
+  }
   .box {
     width: 364px;
   }
