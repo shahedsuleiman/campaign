@@ -72,7 +72,10 @@ body {
   color: #000;
   max-width: 350px;
   min-width: 200px;
-  margin-inline-end: 1rem;
+  /* margin-inline-end: 1rem; */
+}
+.row-icon {
+  margin-inline-start: 1rem;
 }
 .btn-yellow:hover {
   background-color: var(--bs-btn-hover);
@@ -350,6 +353,13 @@ body {
 .speaker-margin-bottom{
   margin-bottom: 75px;
 }
+ .under-sm-svg-3{
+    position:absolute;
+    top: 860px;
+    width: 578px;
+    left: 92px;
+
+  }
 
 }
 @media screen and (max-width: 425px) {
@@ -402,7 +412,7 @@ body {
   .right-sm-svg-1 {
     position: absolute;
     top: 39.5%;
-    right: 1%;
+    right: 13px;
   }
   .left-sm-svg-3 {
     position: absolute;
@@ -428,6 +438,11 @@ body {
   .names {
     padding-bottom: 0px;
   }
+  .row-icon {
+    margin-top: 20px !important;
+    margin-bottom: 16px !important;
+    margin-inline-start: 0px;
+  }
 }
 @media screen and (max-width: 360px) {
   .hero-content-sm-svg-5 {
@@ -443,10 +458,7 @@ body {
     font-size: 27px;
   }
   .hero-content h1 {
-    min-width: 228px;
-  }
-  .p-hero {
-    width: 231px;
+    font-size:24px;
   }
   .hero-content-md-svg-1 {
     right: 4%;
@@ -511,6 +523,9 @@ body {
   .p-hero {
     text-align: justify;
   }
+  .row-hero {
+    align-items: center !important;
+  }
   .row-footer {
     min-width: 330px;
   }
@@ -520,6 +535,10 @@ body {
   .names {
     padding-bottom: 0px;
   }
+  .row-icon {
+    margin-top: 20px !important;
+    margin-bottom: 16px !important;
+  }
 }
 @media screen and (max-width: 320px) {
   .hero-content-sm-svg-5 {
@@ -527,14 +546,16 @@ body {
     left: 0.5% !important;
     height: 185px;
   }
+  /* .under-sm-svg-3{
+    position:absolute;
+    top: 1074px;
+    left: 27px;
+    width: 273px;
+  } */
   .header {
     width: 200px;
   }
-  .p-hero {
-    padding: 0px 0px 0px 0px;
-    line-height: 29px !important;
-    font-size: 15px !important;
-  }
+
   .nav-button {
     width: 102px;
 }
@@ -615,9 +636,7 @@ body {
   .left-sm-svg-4 {
     display: none;
   }
-  .p-hero {
-    text-align: justify;
-  }
+
   .row-footer {
     min-width: 330px;
   }
@@ -637,5 +656,9 @@ body {
   .logo{
     max-width: 149px !important;
     padding-top: 6px ;
+  }
+  .row-icon {
+    margin-top: 20px;
+    margin-bottom: 16px;
   }
 }
